@@ -1,0 +1,27 @@
+
+ 
+Header	Pad	Configuration	Function	On Robot	   
+J1.8	PA5	GPIO Output	Servo Motor Control	RC Servo Input	   
+J1.9	PA6	GPIO Output	Right DC Motor FWD 	Motor Driver: IN4	   
+J1.10 	PA7	GPIO Output	Right DC Motor REV	Motor Driver IN3	   
+J4.3	PB3	GPIO Input	Ultrasonic Echo	Ultrasonic: Echo	   
+J1.7	PB4	GPIO Output	Ultrasonic Trigger	Ultrasonic: Trig	   
+J1.5 	PE4	GPIO Input	Speed Sensor Left Wheel	Left Tach:   Out	   
+J1.6 	PE5	GPIO Input	Speed Sensor Right Wheel	Right Tach:   Out	   
+J4.1 	PF2	GPIO Output	Left DC Motor FWD (blue LED)	Motor Driver: IN2	   
+J4.2 	PF3	GPIO Output	Left DC Motor REV (green LED)	Motor Driver: IN1	 
+
+Alternately, if you are using analog to digital conversion with your robot you can use the following (with appropriate changes to the PortE Initialization function and the PortE interrupt handler):
+
+ 
+Header	Pad	Configuration	Function	On Robot	   
+J1.5 	PE4	Analog Input	Channel 1 analog input		   
+J1.6 	PE5	Analog Input	Channel 2 analog input		   
+J3.7	PE1	GPIO Input	Speed Sensor Left Wheel	Left Tach:     Out	   
+J3.8	PE2	GPIO Input	Speed Sensor Right Wheel	Right Tach:   Out	 
+  
+Header	Pad	Configuration	Function	   
+J4.10 	PF4	GPIO In/weak pull-up	Switch 1	   
+J2.4 	PF0	GPIO In/weak pull-up	Switch 2	   
+J3.10 	PF1	GPIO Output	Red LED	 
+

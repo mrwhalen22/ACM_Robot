@@ -1,0 +1,11 @@
+.\objects\lab9main.o: Lab9Main.c
+.\objects\lab9main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lab9main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lab9main.o: tm4c123gh6pm.h
+.\objects\lab9main.o: interrupt.h
+.\objects\lab9main.o: PLL.h
+.\objects\lab9main.o: UART.h
+.\objects\lab9main.o: ports.h
+.\objects\lab9main.o: motor.h
+.\objects\lab9main.o: ultrasonic.h
+.\objects\lab9main.o: sw1.h

@@ -1,0 +1,9 @@
+void   PortA_Init(void);
+void   PortB_Init(void);
+void   PortF_Init(void);
+void   blue_led_on(void);
+void   blue_led_off(void);
+void   red_led_on(void);
+void   red_led_off(void);
+void   green_led_on(void);
+void   green_led_off(void);
