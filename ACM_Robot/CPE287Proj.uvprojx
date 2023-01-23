@@ -133,7 +133,7 @@
             <UseExternalTool>0</UseExternalTool>
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
-            <Capability>0</Capability>
+            <Capability>1</Capability>
             <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
@@ -404,11 +404,6 @@
               <FilePath>.\UART.c</FilePath>
             </File>
             <File>
-              <FileName>Lab9Main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Lab9Main.c</FilePath>
-            </File>
-            <File>
               <FileName>IOutils.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\IOutils.c</FilePath>
@@ -428,11 +423,26 @@
               <FileType>1</FileType>
               <FilePath>.\motor.c</FilePath>
             </File>
+            <File>
+              <FileName>RobotCommands.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RobotCommands.c</FilePath>
+            </File>
+            <File>
+              <FileName>RobotMain.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RobotMain.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Includes</GroupName>
           <Files>
+            <File>
+              <FileName>RobotCommands.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\RobotCommands.h</FilePath>
+            </File>
             <File>
               <FileName>ports.h</FileName>
               <FileType>5</FileType>

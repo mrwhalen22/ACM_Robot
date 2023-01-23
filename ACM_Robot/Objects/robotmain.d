@@ -1,0 +1,12 @@
+.\objects\robotmain.o: RobotMain.c
+.\objects\robotmain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\robotmain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\robotmain.o: tm4c123gh6pm.h
+.\objects\robotmain.o: interrupt.h
+.\objects\robotmain.o: PLL.h
+.\objects\robotmain.o: UART.h
+.\objects\robotmain.o: ports.h
+.\objects\robotmain.o: motor.h
+.\objects\robotmain.o: ultrasonic.h
+.\objects\robotmain.o: sw1.h
+.\objects\robotmain.o: RobotCommands.h

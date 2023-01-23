@@ -9,3 +9,4 @@
 .\objects\lab9main.o: motor.h
 .\objects\lab9main.o: ultrasonic.h
 .\objects\lab9main.o: sw1.h
+.\objects\lab9main.o: RobotCommands.h
