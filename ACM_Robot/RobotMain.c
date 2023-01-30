@@ -71,8 +71,25 @@ int main(void){
 	//printf("Moved forward\n");
 	//DelayInSeconds(3);
 	//Motor_Drive_ints(20,-20, 8, 8, 0);
-	DriveBackwards(20, speed);
-	DelayInSeconds(3);
+	char cmd[20];
+	int err;
+	ReadCommand(cmd);
+	while((err = ParseCommand(cmd)) != 1) {
+		printf("%d\n", err);
+		if(err < 0) {
+			printf("Invalid Command!\n");
+			
+		}
+		else {
+			DelayInSeconds(3);
+		}
+		ReadCommand(cmd);
+	}		
+	
+	printf("%d\n", err);
+	
+	
+	
 	
 	//printf("Turned right\n");
 	

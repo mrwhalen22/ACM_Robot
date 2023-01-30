@@ -4,3 +4,6 @@ void DriveBackwards(int amt, int speed);
 
 void TurnRight(int degrees);
 void TurnLeft(int degrees);
+
+void ReadCommand(char* cmdBuf); // limit to 20 characters in buffer
+int ParseCommand(const char* cmd);
