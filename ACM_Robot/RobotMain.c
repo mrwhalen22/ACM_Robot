@@ -24,24 +24,6 @@
 #define PF4 (*((unsigned long volatile *)(0x40025040))) //1 0000 00
 #define SW1 PF4
 
-//********************Delay****************
-// delay function which delays 3*ulCount cycles
-// input: loop count
-//output: none
-void Delay(uint32_t);
-	//Keil uVision Code
-	__asm void
-	Delay(uint32_t ulCount)
-	{
-    subs    r0, #1
-    bne     Delay
-    bx      lr
-	}
-
-void DelayInSeconds(uint32_t seconds)
-{
-	Delay(seconds * 10000000);
-}
 	
 void Init() {
 	PLL_Init();                   // 80 MHz
@@ -86,7 +68,7 @@ int main(void){
 		ReadCommand(cmd);
 	}		
 	
-	printf("%d\n", err);
+	//printf("%d\n", err);
 	
 	
 	

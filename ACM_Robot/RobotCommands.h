@@ -1,4 +1,8 @@
+#include <stdint.h>
+
 // Commands used for Robot Initialization and Movement
+void DelayInSeconds(uint32_t seconds); 
+
 void DriveForward(int amt, int speed);
 void DriveBackwards(int amt, int speed);
 
